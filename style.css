@@ -1,0 +1,123 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background: url(images/IN-en-20230522-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+    border-bottom: 8px solid #222;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.573),rgba(0, 0, 0, 0.578));
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.nav-link{
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    color: white !important;
+    width: 127px;
+    height: 37px;
+    border-radius: 7px;
+   
+}
+
+.btn{
+    width: 100px;
+    color: rgb(255, 255, 255) !important;
+    background-color: red !important;
+    font-weight: bold;
+    height: 38px;
+}
+#button-addon2{
+   
+    border-radius: 10px;
+    background-color: red;
+    color: white !important;
+    font-weight: bold;
+    width: 24%;
+    height: 52px;
+    border: none;
+
+}
+.input-box{
+    background-color: rgba(0, 0, 0, 0.316);
+    
+  
+}
+.maindiv p{
+    font-size: 26px;
+    font-weight: 400;
+    color: white;
+}
+h1{
+    font-size: 50px !important;
+    font-weight: bold;
+    color: white;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+.accordion-button {
+    background-color: rgb(59, 57, 57);
+    color: white;
+}
+.accordion-item{
+    background-color: rgb(58, 56, 56);
+    color: white;
+    font-weight: 350;
+    border: none;
+}
+.txt{
+    font-weight: 400;
+    font-size: 22px;
+}
+a{
+    color: rgb(223, 221, 221);
+    font-weight: 200;
+    display: flex;
+  
+}
+
+.www{
+    display: flex;
+    flex-direction: row;
+}
+.nav-link{
+    padding-left: 39px;
+    border-radius: 7px;
+}
+hr{
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+}
+.dropdown-toggle{
+    padding-left: 38px !important;
+}
+svg{
+    color: white !important;
+    position: relative;
+    bottom: 31px;
+    height: 22px;
+    width: 22px;
+    margin-left: 8px;
+}
